@@ -82,7 +82,7 @@ header nav ul li a {
 .wrapper section .primary {
   padding: 1.5em 1.5em 1.5em calc(3em + 25px);
   background-position: 3em;
-  border: 1px solid gray;
+  border: 1px solid white;
   display: inline-block;
   margin-top: 3em;
   margin-left: -3em;
@@ -94,7 +94,7 @@ header nav ul li a {
 
 .wrapper section.hero {
   padding-top: 8em;
-  background: url(../musician.jpg);
+  background: url(../japan.jpeg);
   background-size: cover;
 }
 
@@ -115,7 +115,7 @@ header nav ul li a {
 }
 
 .wrapper section.sidebar {
-  background: #FFCC00;
+  background: #68dee0ab;
 }
 
 .wrapper section.sidebar .read-btn {

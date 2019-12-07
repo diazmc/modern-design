@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
 
-$primary-color: #FFCC00;
+$primary-color: #68dee0ab;
 
 body, html {
     margin: 0;
@@ -75,7 +75,7 @@ header {
         .primary {
             padding: 1.5em 1.5em 1.5em calc(3em + 25px);
             background-position: 3em;
-            border: 1px solid gray;
+            border: 1px solid white;
             display: inline-block;
             margin-top: 3em;
             margin-left: -3em;
@@ -88,7 +88,7 @@ header {
 
     section.hero {
         padding-top: 8em;
-        background: url(../musician.jpg);
+        background: url(../japan.jpeg);
         background-size: cover;
 
         p {
