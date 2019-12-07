@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap');
 
+$primary-color: #FFCC00;
+
 body, html {
     margin: 0;
 }
@@ -66,7 +68,68 @@ header {
             background: url(../arrow.png) no-repeat;
             background-size: 16px;
             background-position: 0 1px;
-            padding-left: 1em;
+            padding-left: 1.5em;
+        }
+
+        .primary {
+            padding: 1.5em 1.5em 1.5em calc(3em + 25px);
+            background-position: 3em;
+            border: 1px solid gray;
+            display: inline-block;
+            margin-top: 3em;
+            margin-left: -3em;
+        }
+
+        .clipper {
+            overflow: hidden;
+        }
+    }
+
+    section.hero {
+        padding-top: 8em;
+        background: url(../musician.jpg);
+        background-size: cover;
+
+        p {
+            width: 70%;
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+    }
+
+    section.sidebar,
+    section.subscribe {
+        font-size: .9rem;
+        line-height: 1.6em;
+    }
+
+
+    section.sidebar {
+        background: $primary-color;
+    
+        .read-btn {
+            margin-top: 2em;
+            display: block;
+            background-position: 0 .2em;
+        }
+    }
+
+    section.subscribe {
+        
+        input {
+            width: calc(100% - 2em);
+            padding: 1em;
+            font-family: 'Montserrat';
+            margin-bottom: 1em; 
+        }
+
+        button {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            padding: 1em;
+            border: none; 
+            font-family: 'Montserrat';
         }
     }
 }

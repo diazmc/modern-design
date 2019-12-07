@@ -75,6 +75,63 @@ header nav ul li a {
   background: url(../arrow.png) no-repeat;
   background-size: 16px;
   background-position: 0 1px;
-  padding-left: 1em;
+  padding-left: 1.5em;
+}
+
+.wrapper section .primary {
+  padding: 1.5em 1.5em 1.5em calc(3em + 25px);
+  background-position: 3em;
+  border: 1px solid gray;
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: -3em;
+}
+
+.wrapper section .clipper {
+  overflow: hidden;
+}
+
+.wrapper section.hero {
+  padding-top: 8em;
+  background: url(../musician.jpg);
+  background-size: cover;
+}
+
+.wrapper section.hero p {
+  width: 70%;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.wrapper section.sidebar,
+.wrapper section.subscribe {
+  font-size: .9rem;
+  line-height: 1.6em;
+}
+
+.wrapper section.sidebar {
+  background: #FFCC00;
+}
+
+.wrapper section.sidebar .read-btn {
+  margin-top: 2em;
+  display: block;
+  background-position: 0 .2em;
+}
+
+.wrapper section.subscribe input {
+  width: calc(100% - 2em);
+  padding: 1em;
+  font-family: 'Montserrat';
+  margin-bottom: 1em;
+}
+
+.wrapper section.subscribe button {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  border: none;
+  font-family: 'Montserrat';
 }
 /*# sourceMappingURL=main.css.map */
